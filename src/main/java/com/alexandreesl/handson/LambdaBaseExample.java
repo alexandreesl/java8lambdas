@@ -29,7 +29,7 @@ public class LambdaBaseExample {
 
 		for (int i = 1; i <= 10; i++) {
 
-			final int number = i;
+			int number = i;
 
 			Runnable runnable = () -> System.out
 					.println("The number with a lambda is " + number);
